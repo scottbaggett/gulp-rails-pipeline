@@ -1,12 +1,8 @@
-/**
- * This is the main site manifest.
- * Require any gem based requirements here.
- *
- *
-**/
+// require gem/rails based assets below
+//=require jquery
+//=require jquery_ujs
 
-/**
- * For NPM based requirements, use WebPack to create bundles.
- *
- * = require main
-**/
+// require gulp/npm based assets below
+
+//= require shared
+//= require main
