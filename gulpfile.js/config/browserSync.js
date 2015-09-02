@@ -1,8 +1,7 @@
 var config = require('./')
 
 module.exports = {
-  server: {
-    baseDir: config.publicDirectory
-  },
-  files: ['public/**/*.html']
+  proxy: 'localhost:3000',
+  files: ['./app/views/**'],
+  open: false
 }
