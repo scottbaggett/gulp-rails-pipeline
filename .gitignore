@@ -1,5 +1,6 @@
 # From https://github.com/github/gitignore
 *.rbc
+.DS_Store
 capybara-*.html
 .rspec
 /log
