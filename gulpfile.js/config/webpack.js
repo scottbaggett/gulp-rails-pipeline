@@ -10,9 +10,7 @@ module.exports = function(env) {
 
   var webpackConfig = {
     context: jsSrc,
-
     plugins: [],
-
     resolve: {
       extensions: ['', '.js']
     },
@@ -22,17 +20,17 @@ module.exports = function(env) {
         {
           test: /\.js$/,
           loader: 'babel-loader?stage=1',
-          exclude: /node_modules/
+          exclude: [/node_modules/]
         }
       ]
     }
   }
 
   if(env !== 'test') {
-    // Karma doesn't need entry points or output settings
+
+    // Configure your bundles here.
     webpackConfig.entry= {
-      page1: [ './page1.js' ],
-      page2: [ './page2.js' ]
+      main: [ jsSrc + '/main.js' ]
     }
 
     webpackConfig.output= {
