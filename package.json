@@ -60,9 +60,9 @@
     "pretty-hrtime": "~1.0.0",
     "require-dir": "^0.3.0",
     "vinyl-source-stream": "~1.1.0",
-    "webpack": "^1.10.1"
+    "webpack": "^1.10.1",
+    "gulp-watch": "^4.3.3"
   },
   "devDependencies": {
-    "gulp-watch": "^4.3.3"
   }
 }
