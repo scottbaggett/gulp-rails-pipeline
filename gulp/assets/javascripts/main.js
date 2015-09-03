@@ -1,6 +1,8 @@
+import message from './message';
+
 class Main {
   constructor() {
-    console.info("GAP2 | Gulp Rails Pipeline 2.0...");
+    console.info(message());
   }
 }
 
